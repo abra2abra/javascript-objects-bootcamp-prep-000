@@ -12,4 +12,4 @@ const recipe = {
   eggs: 3
 }
 
-destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups');
+console.log(destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups'));
