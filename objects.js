@@ -1,7 +1,6 @@
 var firstMeal = 'breakfast';
-firstMeal = 'kk';
 var meals = {
-  firstMeal: 'oatmeal'
+  [firstMeal]: 'oatmeal'
 };
 
 console.log(firstMeal);
