@@ -43,7 +43,7 @@ function removeFromPlaylist(obj, artist){
 
 var hey = {"Kanye": "Gold Digger"};
 
-console.log(removeFromPlaylist(hey, hey.Kaney))
+console.log(removeFromPlaylist(hey, hey['Kaney']))
 
 
 
