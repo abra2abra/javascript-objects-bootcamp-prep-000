@@ -16,7 +16,7 @@ const recipe = {
 //console.log(recipe)
 
 function updateObjectWithKeyAndValue(obj, key, value){
-  return Object.assign({}, {[key]: value}, obj)
+  return Object.assign({}, obj, {[key]: value})
 }
 
 console.log(updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup'));
