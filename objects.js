@@ -1,8 +1,8 @@
-const firstMeal = 'breakfast';
+var firstMeal = 'breakfast';
 
 var meals = {
   firstMeal: 'oatmeal'
 };
 
 console.log(firstMeal);
-console.log(meals[0]);
+console.log(meals.firstMeal);
