@@ -15,4 +15,4 @@ const recipe = {
 //console.log(destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups'));
 //console.log(recipe)
 
-console.log(Object.assign({}, {foo: 'bar'}));
+console.log(Object.assign({}, {foo: 'bar'}, {}));
