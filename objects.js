@@ -2,7 +2,14 @@ var firstMeal = 'breakfast';
 var meals = {
   [firstMeal]: 'oatmeal'
 };
-meals.snack = 'yougurt';
-meals['second breakfast'] = 'bagel';
-//console.log(firstMeal);
-console.log(meals['second breakfast']);
+function desctructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
+  obj[key] = value
+  
+  return obj;
+}
+
+const recipe = {
+  eggs: 3
+}
+
+destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups');
