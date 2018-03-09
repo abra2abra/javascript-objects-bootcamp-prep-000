@@ -1,5 +1,5 @@
 var firstMeal = 'breakfast';
-
+firstMeal = 'kk';
 var meals = {
   firstMeal: 'oatmeal'
 };
