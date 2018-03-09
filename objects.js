@@ -2,7 +2,7 @@ var firstMeal = 'breakfast';
 var meals = {
   [firstMeal]: 'oatmeal'
 };
-function desctructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
   obj[key] = value
   
   return obj;
