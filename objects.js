@@ -28,7 +28,7 @@ function updateObjectWithObject(targetObject, updateObject){
 
 //console.log(updateObjectWithObject(recipe, {'hei' :'heia'}));
 
-var playlist = {};
+var playlist = {some:'hey'};
 
 function updatePlaylist(obj, artist, song){
   obj[artist] = song;
