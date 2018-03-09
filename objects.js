@@ -5,4 +5,4 @@ var meals = {
 };
 
 console.log(firstMeal);
-console.log(meals);
+console.log(meals[0]);
