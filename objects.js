@@ -34,10 +34,12 @@ function updatePlaylist(obj, artist, song){
   obj.artist = song;
   return obj;
 }
-console.log(updatePlaylist(playlist, 'hey', 'heii'))
+//console.log(updatePlaylist(playlist, 'hey', 'heii'))
 
-
-
+function removeFromPlaylist(obj, artist){
+  delete obj.artist;
+  return obj;
+}
 
 
 
