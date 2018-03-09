@@ -28,7 +28,7 @@ function updateObjectWithObject(targetObject, updateObject){
 
 //console.log(updateObjectWithObject(recipe, {'hei' :'heia'}));
 
-var playlist = new Object();
+var playlist = {};
 
 function updatePlaylist(obj, artist, song){
   obj[artist] = song;
@@ -36,12 +36,12 @@ function updatePlaylist(obj, artist, song){
 }
 //console.log(updatePlaylist(playlist, 'hey', 'heii'))
 
+
+var hey = {"Kanye": "Gold Digger"};
 function removeFromPlaylist(obj, artist){
   delete obj.artist;
   return obj;
 }
-
-var hey = {"Kanye": "Gold Digger"};
 
 console.log(removeFromPlaylist(hey, hey['Kaney']))
 
