@@ -19,8 +19,8 @@ function updateObjectWithKeyAndValue(obj, key, value){
   return Object.assign({}, obj, {[key]: value})
 }
 
-console.log(updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup'));
-console.log(recipe);
+//console.log(updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup'));
+//console.log(recipe);
 
 function updateObjectWithObject(targetObject, updateObject){
   return Object.assign({}, targetObject, updateObject)
