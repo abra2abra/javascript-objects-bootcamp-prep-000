@@ -5,4 +5,4 @@ var meals = {
 meals.snack = 'yougurt';
 meals['second breakfast'] = 'bagel';
 //console.log(firstMeal);
-console.log(meals[second breakfast]);
+console.log(meals['second breakfast']);
