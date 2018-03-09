@@ -13,3 +13,4 @@ const recipe = {
 }
 
 console.log(destructivelyUpdateObjectWithKeyAndValue(recipe, 'flour', '3 cups'));
+console.log(recipe)
