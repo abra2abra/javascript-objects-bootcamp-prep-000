@@ -31,7 +31,7 @@ function updateObjectWithObject(targetObject, updateObject){
 var playlist = {};
 
 function updatePlaylist(obj, artist, song){
-  obj.artist = song;
+  obj[artist] = song;
   return obj;
 }
 //console.log(updatePlaylist(playlist, 'hey', 'heii'))
