@@ -26,4 +26,26 @@ function updateObjectWithObject(targetObject, updateObject){
   return Object.assign({}, targetObject, updateObject)
 }
 
-console.log(updateObjectWithObject(recipe, {'hei' :'heia'}));
+//console.log(updateObjectWithObject(recipe, {'hei' :'heia'}));
+
+var playlist = {};
+
+playlist.artistName = 'songTitle';
+console.log(playlist);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
