@@ -4,4 +4,4 @@ var meals = {
 };
 
 console.log(firstMeal);
-console.log(meals[firstMeal]);
+console.log(meals.firstMeal);
