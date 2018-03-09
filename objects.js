@@ -33,8 +33,11 @@ var playlist = {};
 playlist.artistName = 'songTitle';
 console.log(playlist);
 
-
-
+function updatePlaylist(obj, artist, song){
+  obj.artist = song;
+  return obj;
+}
+console.log(updatePlaylist(playlist, 'hey', 'heii'))
 
 
 
